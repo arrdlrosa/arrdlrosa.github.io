@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+a:hover, #lumulutang p a:hover {
+	border-bottom: 3px solid #E5B24B;
+}
+
+.mobilenav {
+	display: none;
+}
+
+nav {
+	display: block;
+	width: 100%;
+	background: #fff;
+	padding: 2% 4%;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+	
+	text-align: right;
+	font-size: 120%;
+	font-weight: 600;
+}
+
+nav a {
+	margin-left: 4%;
+}
+
+/* ----------------------------------------- */
+
+#lumulutang {
+	top: 50%;
+}
+
+#lumulutang h1 {
+	font-size: 400%;
+}
+
+#lumulutang p {
+	font-size: 105%;
+}
+
+#icons a {
+	font-size: 120%;
+}
+
+#icons a span {
+	font-size: 80%;
+}
+
+/* ----------------------------------------- */
+
+#menu {
+	display: block;
+	position: fixed;
+	top: 18%;
+	left: 7.5%;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	margin: 100% 0;
+}
+
+#nilalaman {
+	width: 85%;
+	padding-left: 15%;
+}
+
+section {
+	padding-top: 22%;
+}
+
+.container a:hover {
+	border: 0;
+}
+
+.overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background: rgba(252,210,63,.4);
+	transition: .4s ease;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: #fff;
+	font-size: 250%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+/* ----------------------------------------- */
+
+.bumalik a:hover {
+	border: 0;
+	color: #E5B24B;
+}
+
+.mobilemagpa {
+	position: static;
+	-ms-transform: none;
+	-webkit-transform: none;
+	transform: none;
+}
+
+/* ----------------------------------------- */
+
+@media (min-width: 550px) {
+	nav {
+		padding: 1.5% 3%;
+	}
+	
+	nav a {
+		margin-left: 3%;
+	}
+	
+	#lumulutang {
+		width: 60%;
+	}
+	
+	#lumulutang h1 {
+		font-size: 420%;
+	}
+	
+	#lumulutang p {
+		margin-bottom: 5%;
+	}
+	
+	#icons a {
+		margin-left: 4.5%;
+	}
+	
+	section {
+		padding-top: 18%;
+	}
+
+	section h1 {
+		font-size: 210%;
+	}
+	
+	#logo article {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+		
+		-webkit-column-gap: 35px;
+		-moz-column-gap: 35px;
+		column-gap: 35px;
+	}
+	
+	#logo img {
+		padding: 0 0 20%;
+	}
+	
+	.bumalik {
+		left: 3.5%;
+	}
+	
+	.modal-content {
+		width: 75%;
+	}
+}
+
+@media (min-width: 700px) {
+	nav a {
+		margin-left: 3.5%;
+	}
+	
+	#bahay {
+		background-image: url("images/self_wide.jpg");
+		background-position: center center;
+	}
+	
+	#lumulutang {
+		width: 50%;
+		top: 60%;
+		right: 3%;
+	}
+	
+	#lumulutang h1 {
+		font-size: 425%;
+		margin: 0 0 1.5%;
+	}
+	
+	#menu {
+		top: 20%;
+		left: 10%;
+	}
+	
+	#menu ul li {
+		font-size: 115%;
+	}
+	
+	#nilalaman {
+		width: 80%;
+		padding-left: 13%;
+	}
+	
+	#abo {
+		padding: 0 4%;
+	}
+	
+	section {
+		padding-top: 16%;
+	}
+	
+	#section h1 {
+		font-size: 200%;
+		margin: 0 0 10%;
+	}
+
+	#web article, #print article {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+	
+	.container {
+		margin: 0 0 4%;
+	}
+	
+	.bumalik {
+		left: 2.5%;
+	}
+	
+	.modal-content {
+		width: 80%;
+	}
+}
+
+@media (min-width: 950px) {
+	nav {
+		padding: 1% 2.5%;
+	}
+	
+	nav a {
+		margin-left: 3%;
+	}
+	
+	#lumulutang {
+		width: 40%;
+		right: 6%;
+	}
+	
+	#lumulutang h1 {
+		font-size: 465%;
+		margin: 0 0 1%;
+	}
+	
+	#lumulutang p {
+		margin-bottom: 5%;
+	}
+	
+	#icons a {
+		font-size: 125%;
+		margin-left: 4%;
+	}
+	
+	#menu {
+		left: 11%;
+	}
+	
+	#nilalaman {
+		width: 75%;
+		padding-left: 10%;
+	}
+	
+	#abo {
+		padding: 0 3.5%;
+	}
+	
+	section {
+		padding-top: 13%;
+	}
+	
+	section h1 {
+		font-size: 240%;
+	}
+	
+	#print {
+		padding-bottom: 13%;
+	}
+	
+	.container {
+		margin: 0 0 6.5%;
+	}
+	
+	.bumalik {
+		top: 2%;
+		left: 2%;
+	}
+	
+	.modal-content {
+		width: 75%;
+	}
+}
+
+@media (min-width: 1050px) {
+	#abo {
+		padding: 0 3%;
+	}
+	
+	section {
+		padding-top: 12%;
+	}
+	
+	section h1 {
+		font-size: 225%;
+		margin: 0 0 3%;
+	}
+	
+	#web article, #print article {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+	
+	#logo img {
+		padding: 0 10% 14%;
+	}
+}
+
+@media (min-width: 1150px) {
+	#lumulutang {
+		width: 33%;
+		top: 62%;
+		right: 8%;
+	}
+	
+	#lumulutang p {
+		margin-bottom: 4%;
+	}
+	
+	#menu {
+		top: 22%;
+	}
+	
+	section {
+		padding-top: 12%;
+	}
+	
+	section h1 {
+		margin: 0 0 2%;
+	}
+	
+	.bumalik {
+		top: 2.5%;
+	}
+	
+	.bumalik a {
+		font-size: 200%;
+	}
+	
+	.modal-content {
+		width: 60%;
+	}
+}
+
+@media (min-width: 1250px) {
+	nav {
+		padding: 0.8% 2.5%;
+	}
+	
+	#lumulutang {
+		width: 30%;
+		top: 60%;
+		right: 9%;
+	}
+	
+	#lumulutang h1 {
+		font-size: 480%;
+	}
+	
+	#lumulutang p {
+		font-size: 108%;
+		margin-bottom: 5.5%;
+	}
+	
+	#icons a {
+		margin-left: 4.5%;
+	}
+	
+	#menu {
+		top: 20%;
+		left: 15%;
+	}
+	
+	#menu ul li {
+		font-size: 125%;
+	}
+	
+	#nilalaman {
+		width: 65%;
+		padding-left: 8%;
+	}
+	
+	section {
+		padding-top: 10%;
+	}
+}
