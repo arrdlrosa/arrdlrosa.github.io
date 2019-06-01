@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0 0 5%;
+	background: #84565F;
+}
+
+.row img {
+	width: 100%;
+}
+
+.doc, .comment {
+	background: #fff;
+	width: 90%;
+	margin: 5% auto;
+}
+
+.doc {
+	padding: 5%;
+}
+
+.doc img {
+	box-shadow: 0px 0px 12px #bababa;
+}
+
+.comment {
+	padding: 5%;
+}
+
+.scrolly {
+	width: 75%;
+	margin: auto;
+	height: 75vh;
+	overflow: auto;
+	border: 1px solid #C7CDD1;
+}
+
+#dave img {
+	border: 1px solid #E1E1E1;
+	margin: 0 0 2%;
+}
